@@ -5,6 +5,7 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 public class RedisConnectionUtil {
+	//redis主机的Ip地址
 	private static final String REDIS_HOST="192.168.94.141";
 	private static final int REDIS_PORT=6379;
 	private static final String REDIS_AUTH="mldnjava";
